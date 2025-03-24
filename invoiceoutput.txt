@@ -1,0 +1,45 @@
+﻿============Recognise Invoice: 1===================
+AmountDue
+AmountDue:$4170.0
+BillingAddress
+BillingAddress:AddressValue(house_number=None, po_box=None, road=Alpha Bravo Road 33, city=None, state=None, postal_code=None, country_region=None, street_address=Alpha Bravo Road 33, unit=None, city_district=None, state_district=None, suburb=None, house=None, level=None)
+BillingAddressRecipient
+BillingAddressRecipient:John Doe
+CustomerName
+CustomerName:John Doe
+InvoiceDate
+InvoiceDate:2001-12-12
+InvoiceId
+InvoiceId:00001
+InvoiceTotal
+InvoiceTotal:$302.5
+Items
+Items:[DocumentField(value_type=dictionary, value={'Amount': DocumentField(value_type=currency, value=CurrencyValue(amount=40.0, symbol=$, code=USD), content=$40, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=740.0, y=660.0), Point(x=763.0, y=660.0), Point(x=764.0, y=674.0), Point(x=741.0, y=675.0)])], spans=[DocumentSpan(offset=499, length=3)], confidence=0.922), 'Description': DocumentField(value_type=string, value='Tyre', content=Tyre, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=104.0, y=661.0), Point(x=131.0, y=661.0), Point(x=131.0, y=676.0), Point(x=104.0, y=676.0)])], spans=[DocumentSpan(offset=488, length=4)], confidence=0.921), 'Quantity': DocumentField(value_type=float, value=2.0, content=2, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=548.0, y=661.0), Point(x=554.0, y=661.0), Point(x=554.0, y=673.0), Point(x=548.0, y=673.0)])], spans=[DocumentSpan(offset=493, length=1)], confidence=0.918), 'UnitPrice': DocumentField(value_type=currency, value=CurrencyValue(amount=20.0, symbol=$, code=USD), content=$20, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=624.0, y=657.0), Point(x=651.0, y=657.0), Point(x=651.0, y=678.0), Point(x=625.0, y=679.0)])], spans=[DocumentSpan(offset=495, length=3)], confidence=0.921)}, content=1
+Tyre
+2
+$20
+$40, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=67.0, y=657.0), Point(x=764.0, y=657.0), Point(x=764.0, y=679.0), Point(x=67.0, y=679.0)])], spans=[DocumentSpan(offset=486, length=16)], confidence=0.921), DocumentField(value_type=dictionary, value={'Amount': DocumentField(value_type=currency, value=CurrencyValue(amount=50.0, symbol=$, code=USD), content=$50, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=740.0, y=686.0), Point(x=763.0, y=686.0), Point(x=763.0, y=701.0), Point(x=740.0, y=701.0)])], spans=[DocumentSpan(offset=526, length=3)], confidence=0.931), 'Description': DocumentField(value_type=string, value='Steering Wheel', content=Steering Wheel, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=103.0, y=687.0), Point(x=197.0, y=686.0), Point(x=197.0, y=703.0), Point(x=103.0, y=704.0)])], spans=[DocumentSpan(offset=505, length=14)], confidence=0.921), 'Quantity': DocumentField(value_type=float, value=5.0, content=5, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=546.0, y=687.0), Point(x=553.0, y=687.0), Point(x=553.0, y=700.0), Point(x=546.0, y=700.0)])], spans=[DocumentSpan(offset=520, length=1)], confidence=0.92), 'UnitPrice': DocumentField(value_type=currency, value=CurrencyValue(amount=10.0, symbol=$, code=USD), content=$10, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=625.0, y=686.0), Point(x=649.0, y=686.0), Point(x=649.0, y=701.0), Point(x=625.0, y=701.0)])], spans=[DocumentSpan(offset=522, length=3)], confidence=0.922)}, content=2
+Steering Wheel
+5
+$10
+$50, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=67.0, y=686.0), Point(x=763.0, y=686.0), Point(x=763.0, y=704.0), Point(x=67.0, y=704.0)])], spans=[DocumentSpan(offset=503, length=26)], confidence=0.923), DocumentField(value_type=dictionary, value={'Amount': DocumentField(value_type=currency, value=CurrencyValue(amount=150.0, symbol=$, code=USD), content=$150, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=734.0, y=713.0), Point(x=764.0, y=713.0), Point(x=764.0, y=727.0), Point(x=734.0, y=727.0)])], spans=[DocumentSpan(offset=550, length=4)], confidence=0.938), 'Description': DocumentField(value_type=string, value='Engine Oil', content=Engine Oil, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=103.0, y=712.0), Point(x=166.0, y=713.0), Point(x=166.0, y=729.0), Point(x=103.0, y=728.0)])], spans=[DocumentSpan(offset=532, length=10)], confidence=0.92), 'Quantity': DocumentField(value_type=float, value=10.0, content=10, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=540.0, y=713.0), Point(x=553.0, y=713.0), Point(x=552.0, y=726.0), Point(x=540.0, y=726.0)])], spans=[DocumentSpan(offset=543, length=2)], confidence=0.918), 'UnitPrice': DocumentField(value_type=currency, value=CurrencyValue(amount=15.0, symbol=$, code=USD), content=$15, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=625.0, y=712.0), Point(x=649.0, y=712.0), Point(x=649.0, y=727.0), Point(x=625.0, y=727.0)])], spans=[DocumentSpan(offset=546, length=3)], confidence=0.921)}, content=3
+Engine Oil
+10
+$15
+$150, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=66.0, y=712.0), Point(x=764.0, y=712.0), Point(x=764.0, y=729.0), Point(x=66.0, y=729.0)])], spans=[DocumentSpan(offset=530, length=24)], confidence=0.923), DocumentField(value_type=dictionary, value={'Amount': DocumentField(value_type=currency, value=CurrencyValue(amount=2400.0, symbol=$, code=USD), content=$2,400, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=722.0, y=738.0), Point(x=764.0, y=738.0), Point(x=764.0, y=753.0), Point(x=722.0, y=753.0)])], spans=[DocumentSpan(offset=576, length=6)], confidence=0.922), 'Description': DocumentField(value_type=string, value='Brake Pad', content=Brake Pad, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=103.0, y=738.0), Point(x=162.0, y=739.0), Point(x=162.0, y=754.0), Point(x=103.0, y=753.0)])], spans=[DocumentSpan(offset=557, length=9)], confidence=0.92), 'Quantity': DocumentField(value_type=float, value=24.0, content=24, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=540.0, y=739.0), Point(x=553.0, y=739.0), Point(x=553.0, y=752.0), Point(x=540.0, y=752.0)])], spans=[DocumentSpan(offset=567, length=2)], confidence=0.92), 'UnitPrice': DocumentField(value_type=currency, value=CurrencyValue(amount=1000.0, symbol=$, code=USD), content=$1000, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=610.0, y=738.0), Point(x=649.0, y=738.0), Point(x=649.0, y=754.0), Point(x=610.0, y=753.0)])], spans=[DocumentSpan(offset=570, length=5)], confidence=0.921)}, content=4
+Brake Pad
+24
+$1000
+$2,400, bounding_regions=[BoundingRegion(page_number=1, polygon=[Point(x=66.0, y=729.0), Point(x=764.0, y=738.0), Point(x=764.0, y=762.0), Point(x=66.0, y=753.0)])], spans=[DocumentSpan(offset=555, length=27)], confidence=0.923)]
+PaymentTerm
+PaymentTerm:Cash on Delivery
+ShippingAddress
+ShippingAddress:AddressValue(house_number=None, po_box=None, road=Office Road 38, city=None, state=None, postal_code=None, country_region=None, street_address=Office Road 38, unit=None, city_district=None, state_district=None, suburb=None, house=None, level=None)
+ShippingAddressRecipient
+ShippingAddressRecipient:John Doe Office
+SubTotal
+SubTotal:$275.0
+TotalTax
+TotalTax:$27.5
+VendorAddress
+VendorAddress:AddressValue(house_number=None, po_box=None, road=None, city=None, state=None, postal_code=None, country_region=None, street_address=, unit=None, city_district=None, state_district=None, suburb=None, house=123, State, My Country, level=None)
